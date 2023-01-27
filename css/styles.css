@@ -1,0 +1,255 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+button {
+  font-family: "raleway";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.title {
+  font-family: "abril fatface";
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.sub {
+  font-family: "abril fatface";
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.elipse {
+  width: 6px;
+  height: 5px;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-bottom: 3px;
+}
+
+.first {
+  margin: 1rem;
+}
+.first header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.first header li {
+  display: none;
+}
+.first header button {
+  background-color: white;
+  color: black;
+  border: none;
+}
+.first .intro {
+  margin: 1rem;
+  text-align: center;
+}
+.first .intro button {
+  border: 1px solid black;
+  background-color: white;
+  margin: 0 10px;
+  height: 2rem;
+  width: 129px;
+  border-radius: 10px;
+}
+.first .intro p {
+  font-family: "raleway";
+  font-weight: 400;
+  font-size: 16px;
+  color: gray;
+}
+.first .im-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalogue {
+  background: linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, rgba(190, 187, 187, 0.8901960784) 51.56%, rgba(245, 245, 245, 0) 100%);
+}
+.catalogue .title {
+  text-align: center;
+}
+.catalogue .view {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.catalogue .view .more {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  background-color: black;
+}
+.catalogue .card {
+  width: 15rem;
+  height: 20rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+.catalogue .card .piano {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.catalogue .card .sub {
+  font-size: 16px;
+}
+.catalogue .card ul {
+  padding-left: 4.5px;
+}
+.catalogue .card li {
+  font-family: "raleway";
+  font-weight: 400;
+  font-size: 12px;
+  display: inline;
+}
+.catalogue .card li a {
+  text-decoration: none;
+  color: black;
+}
+.catalogue .card .buttons {
+  display: flex;
+  align-items: center;
+}
+.catalogue .card .buttons .price {
+  font-family: "raleway";
+  font-weight: 400;
+  background-color: white;
+  height: 38px;
+  width: 10rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+.catalogue .card .buttons a {
+  height: 36px;
+  width: 33px;
+  margin-left: 24px;
+}
+.catalogue .card .buttons .car {
+  background-color: black;
+  padding: 7px;
+  width: 24px;
+  height: 24px;
+  border-radius: 10px;
+}
+
+.contact {
+  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.65);
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%);
+  background: linear-gradient(177.96deg, #6F6F6F 1.72%, #FFFFFF 98.63%);
+  background: linear-gradient(177.96deg, #6F6F6F 1.72%, rgba(255, 255, 255, 0.43) 98.63%);
+}
+
+.all {
+  text-align: center;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(0, 0, 0, 0.9) 37.19%, rgba(0, 0, 0, 0.75) 76.04%, #FFFFFF 100%);
+}
+.all .back {
+  display: flex;
+  justify-content: flex-end;
+}
+.all .bgp {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.all .pianist {
+  position: absolute;
+  width: 100%;
+  height: 20rem;
+  opacity: 0.1;
+}
+.all .info {
+  color: white;
+  padding: 0 1rem;
+  padding-top: 1rem;
+  width: 23rem;
+}
+.all .star {
+  width: 20px;
+  height: 17px;
+  margin-left: 6px;
+}
+.all .val {
+  font-family: "raleway";
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 25px;
+}
+.all .description {
+  font-family: "raleway";
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+.all li {
+  font-family: "raleway";
+  font-weight: 700;
+  font-size: 16px;
+  display: inline;
+}
+.all li a {
+  text-decoration: none;
+  color: white;
+}
+.all .options {
+  padding-left: 0px;
+  margin-bottom: 2rem;
+}
+.all .confirm {
+  width: 18rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  background-color: black;
+}
+
+@media screen and (min-width: 780px) {
+  .all .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .all .pianist {
+    width: 100%;
+    height: 39rem;
+  }
+  .all .bgp {
+    width: 60%;
+  }
+  .all .bgp img {
+    height: 40rem;
+    width: 40rem;
+    margin-top: -75px;
+  }
+  .all .info {
+    text-align: left;
+    width: 37%;
+    height: 28rem;
+  }
+  .all .year {
+    opacity: 0;
+  }
+  .catalogue .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}/*# sourceMappingURL=styles.css.map */
